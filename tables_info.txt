@@ -1,0 +1,31 @@
+-----
+users
+name 0 CHAR 50
+username 1 CHAR 50
+password 0 CHAR 50
+email 0 CHAR 50
+phone 0 CHAR 20
+balance 0 INTEGER None
+-----
+tickets
+pay_id 0 CHAR 50
+ticket_id 0 CHAR 50
+price 0 INTEGER None
+-----
+accounts
+alias 1 INTEGER None
+password 0 CHAR 50
+balance 0 INTEGER None
+favorite 0 BOOLEAN None
+owner_username 0 CHAR 50
+debt 0 INTEGER None
+-----
+transactions
+sender_username 0 CHAR 50
+reciever_username 0 CHAR 50
+price 0 INTEGER None
+-----
+debts
+owner_account_alias 1 INTEGER None
+remaining_debt 0 INTEGER None
+total_debt 0 INTEGER None

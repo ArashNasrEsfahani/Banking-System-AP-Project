@@ -1,0 +1,30 @@
+users
+name CHAR(50)
+username UNIQUE CHAR(50)
+password CHAR(50)
+email CHAR(50)
+phone CHAR(20)
+balance INTEGER
+
+tickets
+pay_id CHAR(50)
+ticket_id CHAR(50)
+price INTEGER
+
+accounts
+alias UNIQUE CHAR(50)
+password CHAR(50)
+balance INTEGER
+favorite BOOLEAN
+owner_username CHAR(50)
+debt INTEGER
+
+transactions
+sender_username CHAR(50)
+reciever_username CHAR(50)
+price INTEGER
+
+debts
+owner_account_alias UNIQUE CHAR(50)
+remaining_debt INTEGER
+total_debt INTEGER

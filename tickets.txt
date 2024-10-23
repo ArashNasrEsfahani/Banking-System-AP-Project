@@ -1,0 +1,2 @@
+pay_id ticket_id price 
+234241 2314234 300 0 
